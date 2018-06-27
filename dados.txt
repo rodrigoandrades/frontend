@@ -1,0 +1,2 @@
+https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR
+set PATH=%PATH%;%AppData%\npm
