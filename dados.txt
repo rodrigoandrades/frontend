@@ -1,2 +1,22 @@
 https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR
 set PATH=%PATH%;%AppData%\npm
+
+firebase deploy
+
+cd public/v1
+parcel index.html
+
+
+imagemin ./* --out-dir=./
+
+
+mogrify -resize 90%  C:\Users\1049865\Downloads\frontend-performance\public\*.PNG
+mogrify -resize 90%  C:\Users\1049865\Downloads\frontend-performance\public\*.png
+mogrify -resize 90%  C:\Users\1049865\Downloads\frontend-performance\public\*.jpg
+mogrify -resize 90%  C:\Users\1049865\Downloads\frontend-performance\public\*.gif
+
+mogrify -quality 20% C:\Users\1049865\Downloads\frontend-performance\public\*.jpg
+mogrify -quality 20% C:\Users\1049865\Downloads\frontend-performance\public\*.png
+mogrify -quality 20% C:\Users\1049865\Downloads\frontend-performance\public\*.PNG
+mogrify -quality 20% C:\Users\1049865\Downloads\frontend-performance\public\*.gif
+mogrify -quality 20% -define jpeg:extent C:\Users\1049865\Downloads\frontend-performance\public\*.jpg
